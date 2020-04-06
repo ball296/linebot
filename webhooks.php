@@ -4,7 +4,7 @@ require "vendor/autoload.php";
 include "admin/config.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
-$access_token = "s4N1kB+LlFN7g/w/V1PZuWkVAuROSbh9hxCBZ7Xe69YDFt0plPMJI19DdMiu1L6/FKrNt+CRMgBEwK2lhH6xzqkIGuqvEPGSlMtXl+uBF+q43U3AnK2VnPyVTBXEcQ+L7d/pWHVwxBoSD86Mc6QPSAdB04t89/1O/w1cDnyilFU=";
+$access_token = "P5CC+GBgVNSc48oKsMHztwy2LCn6+vq2Y6z3EaCVrL9sssYRrq12TZoWep5QNjvy81hUxVJH1UlszUGGsUqa0pk1jAIz01byK/VzzHkxol8n48PShgI+1y3fqalBBDBt1XEikmfA9m4S3m3O30T/4gdB04t89/1O/w1cDnyilFU=";
 
 $content = file_get_contents('php://input');
 $events = json_decode($content, true);
