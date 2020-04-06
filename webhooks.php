@@ -1,5 +1,5 @@
 <?php 
-
+echo ok;
 require "vendor/autoload.php";
 include "admin/config.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
@@ -67,4 +67,5 @@ function sentToLine($replyToken , $access_token  , $messages ){
 	$result = curl_exec($ch);
 	curl_close($ch);
 	echo $result . "\r\n";
+	
 }
